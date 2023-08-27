@@ -45,7 +45,9 @@ Once the VM is created head to the computer's nic to change the domain controlle
 <p>
 <img src="https://i.imgur.com/W77wTge.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
+
+<p>
+Now head to the VM and in the server manager go to add roles and features in order to install Active Directory Domain Services. After that is installed, go to the exclamation point in the top right corner and promote the server to a domain controller. Add a new forest and create a root domain name. Create a password and continue the installation process. Once active directory domain services is installed you can go to tools in the top left corner and select, Domain Users and Computers.
+</p>
+
