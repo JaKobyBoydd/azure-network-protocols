@@ -24,7 +24,7 @@ In this tutorial, we will set up a Domain Controller through azure. <br />
 <h2>Actions and Observations</h2>
 
 <p>
-The first step is to create a virtual machine through azure. In order for us to set up a domain controller, the operating system needed is a windows datacenter. Under operations choose, "Windows Datacenter 2019 x62 Gen2". For the size of the vm, choose at least 2 vcpus.
+The first step is to create a virtual machine through azure. In order for us to set up a domain controller, the operating system needed is, windows datacenter. Under operations choose, "Windows Datacenter 2019 x62 Gen2". For the size of the vm, choose at least 2 vcpus.
 </p>
 <p>
 <img src="https://i.imgur.com/ods5SDo.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
@@ -32,7 +32,7 @@ The first step is to create a virtual machine through azure. In order for us to 
 <br />
 
 <p>
-Once the VM is created head to the computer's nic to change the domain controller's ip. Head to the settings on the left hand side and select networking. In the network settings go to the network interface, ip configurations, and select ip coonfig1. Lastly change the private ip address allocation from dynamic to static.
+Once the VM is created head to the computer's nic to change the domain controller's ip. Navigate to settings on the left hand side and select networking. In the network settings go to the network interface, then ip configurations, and select ip coonfig1. Lastly change the private ip address allocation from dynamic to static.
 </p>
 <p>
 <img src="https://i.imgur.com/d1o4Db3.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
@@ -48,6 +48,6 @@ Once the VM is created head to the computer's nic to change the domain controlle
 <br />
 
 <p>
-Now head to the VM and in the server manager go to add roles and features in order to install Active Directory Domain Services. After that is installed, go to the exclamation point in the top right corner and promote the server to a domain controller. Add a new forest and create a root domain name. Create a password and continue the installation process. Once active directory domain services is installed you can go to tools in the top left corner and select, Domain Users and Computers.
+Now head to the VM and in the server manager, go to "add roles and features" in order to install Active Directory Domain Services. After that is installed, go to the exclamation point in the top right corner and promote the server to a domain controller. Add a new forest and create a root domain name. Create a password and continue the installation process. Once active directory domain services is installed you can go to tools in the top left corner and select, Domain Users and Computers. Congrats, now you have yourself a Domain Controller!
 </p>
 
