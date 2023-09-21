@@ -19,6 +19,7 @@ In this tutorial, we will set up a Domain Controller through azure. <br />
 
 - Create a Virtual Machine through azure
 - Install Active Directory Domain Services
+- Promote Server to DC
 - Add a new Forest
 
 <h2>Actions and Observations</h2>
