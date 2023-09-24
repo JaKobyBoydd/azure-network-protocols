@@ -1,6 +1,6 @@
 # Setting Up A Domain Controller<p align="center">
 
-In this tutorial, we will set up a Domain Controller through azure. <br />
+In this tutorial, we will set up a Domain Controller through azure. First we'll create a VM through azure, then through the server manager on the VM, install Active Directory Domain Services, allowing us to promote the server to a DC. <br />
 
 
 <h2>Environments and Technologies Used</h2>
